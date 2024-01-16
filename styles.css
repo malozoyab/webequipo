@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff008c;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+/* Contenido principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#instagram-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#instagram-link a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ff008c; 
+}
+
+#instagram-link img {
+    max-width: 75px;
+}
+
+#instagram-link a:hover {
+    text-decoration: underline;
+}
+
+.slideshow {
+    padding: 0px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slideshow img {
+    padding: 0px;
+    width: 950px; /* O ajusta a un valor específico en píxeles, por ejemplo: width: 600px; */
+    height: 550px; /* Mantiene la proporción original de la imagen */
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* Ajusta el objeto para cubrir el tamaño especificado manteniendo la proporción */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.container h2 {
+    color: #000000;
+    font-size: 26px;
+    margin: 20px;
+}
+
+.container p {
+    color: #4e4e4e;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #858585a4;
+    color: #0000ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sponsor {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sponsor img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.sponsor-info {
+    flex: 1;
+}
